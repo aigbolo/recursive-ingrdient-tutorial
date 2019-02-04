@@ -83,7 +83,7 @@ public class SumFunctions {
             }
             System.out.println("keep:  "+keep);
 
-            collected.add(keep);
+            collected.add(keep.substring(0,keep.length()-1));
             if(startRootIndex < ingredients.size() - 1){
                 startRootIndex++;
             }else{
